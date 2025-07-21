@@ -26,7 +26,8 @@ This script leverages **Impacket**, **LDAP**, and **SMB** to identify computers 
 - `tqdm`
 
 ## 🧪 Usage
-`-k` flag and access to the DC host are MANDATORY conditions. Learn more about it [here](https://lab.tacticalgator.net/Tools/FindDomainShare).
+`-k` flag, and access to the DC host are MANDATORY conditions. 
+Learn more about it [here](https://lab.tacticalgator.net/Tools/FindDomainShare#usage).
 ```
 Python3 FindDomianShare.py [domain/]username[:password]@<target> [options]
 ```
