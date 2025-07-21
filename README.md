@@ -4,6 +4,7 @@
 ![Platform: Cross-Platform](https://img.shields.io/badge/Platform-Cross--Platform-green)
 ![Purpose: Red/Blue Team](https://img.shields.io/badge/Purpose-Red%20%2F%20Blue%20Team-orange)
 
+https://lab.tacticalgator.net/Tools/FindDomainShare
 A powerful, modular, and multi-threaded Python tool to **enumerate and assess SMB shares across an entire Active Directory domain**, built for **penetration testers**, **red teamers**, and **cybersecurity professionals**.
 
 This script leverages **Impacket**, **LDAP**, and **SMB** to identify computers in the domain and list available network shares with optional read/write and admin access testing.
@@ -25,7 +26,7 @@ This script leverages **Impacket**, **LDAP**, and **SMB** to identify computers 
 - `tqdm`
 
 ## 🧪 Usage
-`-k` flag and access to the DC host are MANDATORY conditions.
+`-k` flag and access to the DC host are MANDATORY conditions. Learn more about it [here](https://lab.tacticalgator.net/Tools/FindDomainShare).
 ```
 Python3 FindDomianShare.py [domain/]username[:password]@<target> [options]
 ```
