@@ -1,10 +1,11 @@
 # FindDomianShare
+https://lab.tacticalgator.net/Tools/FindDomainShare
+
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![Language: Python](https://img.shields.io/badge/Language-Python-blue)
 ![Platform: Cross-Platform](https://img.shields.io/badge/Platform-Cross--Platform-green)
 ![Purpose: Red/Blue Team](https://img.shields.io/badge/Purpose-Red%20%2F%20Blue%20Team-orange)
 
-https://lab.tacticalgator.net/Tools/FindDomainShare
 A powerful, modular, and multi-threaded Python tool to **enumerate and assess SMB shares across an entire Active Directory domain**, built for **penetration testers**, **red teamers**, and **cybersecurity professionals**.
 
 This script leverages **Impacket**, **LDAP**, and **SMB** to identify computers in the domain and list available network shares with optional read/write and admin access testing.
